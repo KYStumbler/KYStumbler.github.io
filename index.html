@@ -35,6 +35,7 @@
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibHJvYmVyc29uIiwiYSI6IjY4STlPN3MifQ.4MJeHbZve9Meh_vAmrtdFQ';
 // Create a map in the div #map
+var geojson = [
 {
   "type": "FeatureCollection",
   "features": [
@@ -1442,6 +1443,11 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibHJvYmVyc29uIiwiYSI6IjY4STlPN3MifQ.4MJeHbZve9
     }
   ]
 }
+];
+L.mapbox.map('map', 'mapbox.streets')
+  .setView([37.8, -96], 4)
+  .featureLayer.setGeoJSON(geojson);
+</script>
     
   </body>
 </html>
