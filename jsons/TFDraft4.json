@@ -1419,7 +1419,8 @@
         "marker-symbol": "",
         "name": "WEST-101-X (Control)",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-101-X (Control)"
       }
     },
     {
@@ -1438,7 +1439,8 @@
         "marker-symbol": "",
         "name": "WEST-102-X (Control)",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-102-X (Control)"
       }
     },
     {
@@ -1457,7 +1459,8 @@
         "marker-symbol": "",
         "name": "WEST-103-X (Control)",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-103-X (Control)"
       }
     },
     {
@@ -1476,7 +1479,8 @@
         "marker-symbol": "",
         "name": "WEST-104-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-104-X"
       }
     },
     {
@@ -1495,7 +1499,8 @@
         "marker-symbol": "",
         "name": "WEST-105-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-105-X"
       }
     },
     {
@@ -1514,7 +1519,8 @@
         "marker-symbol": "",
         "name": "WEST-106-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-106-X"
       }
     },
     {
@@ -1533,7 +1539,8 @@
         "marker-symbol": "",
         "name": "WEST-107-X",
         "Site-type": "DNR Biology",
-        "Description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "Description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-107-X"
       }
     },
     {
@@ -1552,7 +1559,8 @@
         "marker-symbol": "",
         "name": "WEST-108-X",
         "Site-type": "DNR Biology",
-        "Description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "Description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-108-X"
       }
     },
     {
@@ -1571,7 +1579,8 @@
         "marker-symbol": "",
         "name": "WEST-109-X",
         "site-type": "DNR Biology",
-        "Description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "Description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "WEST-109-X"
       }
     },
     {
@@ -1590,7 +1599,8 @@
         "marker-symbol": "",
         "name": "SBPA-201-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "SBPA-201-X" 
       }
     },
     {
@@ -1609,7 +1619,9 @@
         "marker-symbol": "",
         "name": "SBPA-204-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+      "title": "SBPA-204-X"
+        
       }
     },
     {
@@ -1628,7 +1640,9 @@
         "marker-symbol": "",
         "name": "SBPA-205-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+      "title": "SBPA-205-X"
+        
       }
     },
     {
@@ -1647,7 +1661,8 @@
         "marker-symbol": "",
         "name": "SBPA-206-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "SBPA-206-X"
       }
     },
     {
@@ -1666,7 +1681,8 @@
         "marker-symbol": "",
         "name": "SBPA-302-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "SBPA-302-X"
       }
     },
     {
@@ -1685,7 +1701,8 @@
         "marker-symbol": "",
         "name": "SBPA-303-X",
         "site-type": "DNR Biology",
-        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity"
+        "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
+        "title": "SBPA-303-X"
       }
     },
     {
