@@ -3889,16 +3889,7 @@ L.mapbox.map('map', 'mapbox.outdoors')
   .setView([37.8, -96], 4)
   .featureLayer.setGeoJSON(geojson);
 
-L.geoJson(states, {
-    style: function(feature) {
-        switch (feature.properties.site-type) {
-            case 'BMP': return {color: "#f86767"};
-            case 'DNR Biology':   return {color: "#1087bf"};
-            case 'DNR flow':   return {color: "#a3e46b"};
-            case 'grantee monitoring':   return {color: "#f5c272"};
-        }
-    }
-}).addTo(map);
+
     </script>
   </body>
 </html>
