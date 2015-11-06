@@ -3893,12 +3893,12 @@ myLayer.setGeoJSON(geoJson);
 
 // Listen for individual marker clicks.
 myLayer.on('click',function(e) {
-    // Force the popup closed.
-    e.layer.closePopup();
+   
+   
 
     var feature = e.layer.feature;
     var content = '<div><strong>' + feature.properties.title + '</strong>' +
-                  '<p>' + feature.properties.description + '</p></div>';
+                  '<p>' + feature.properties.sitetype + '</p></div>';
 
     info.innerHTML = content;
 });
@@ -3911,7 +3911,7 @@ map.on('move', empty);
 empty();
 
 function empty() {
-  info.innerHTML = '<div><strong>Click a marker</strong></div>';
+  info.innerHTML = '<div><strong>Select a site to view its info</strong></div>';
   }
 
 </script>
