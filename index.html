@@ -1,19 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Kystumbler.GitHub.io by KYStumbler</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+<head>
+<meta charset=utf-8 />
+<title>Marker tooltips outside the map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
 <style>
   body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:75%}
+  #map { position:absolute; top:0; bottom:0; width:100%; }
 </style>
+</head>
+<body>
+<style>
 .info {
   position:absolute;
   top:10px;
@@ -34,7 +33,7 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoibHJvYmVyc29uIiwiYSI6IjY4STlPN3MifQ.4MJeHbZve9Meh_vAmrtdFQ';
 var info = document.getElementById('info');
 var map = L.mapbox.map('map', 'mapbox.streets')
-    .setView([37.9, -77], 6);
+    .setView([39.235560, -76.753349], 8);
 
 var myLayer = L.mapbox.featureLayer().addTo(map);
 var geojson = [
