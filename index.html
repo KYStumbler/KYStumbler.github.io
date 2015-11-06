@@ -14,6 +14,21 @@
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:75%}
 </style>
+.info {
+  position:absolute;
+  top:10px;
+  right:10px;
+  }
+  .info div {
+    background:#fff;
+    padding:10px;
+    border-radius:3px;
+    }
+</style>
+
+<div id='map'></div>
+<div id='info' class='info'></div>
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -31,6 +46,11 @@
     <div id='map'></div>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoibHJvYmVyc29uIiwiYSI6IjY4STlPN3MifQ.4MJeHbZve9Meh_vAmrtdFQ';
+var info = document.getElementById('info');
+var map = L.mapbox.map('map', 'mapbox.streets')
+    .setView([37.9, -77], 6);
+
+var myLayer = L.mapbox.featureLayer().addTo(map);
 var geojson = [
   {
   "type": "FeatureCollection",
@@ -1634,7 +1654,7 @@ var geojson = [
         "name": "SBPA-201-X",
         "sitetype": "DNR Biology",
         "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
-        "title": "SBPA-201-X" 
+        "title": "SBPA-201-X"
       }
     },
     {
@@ -1654,8 +1674,7 @@ var geojson = [
         "name": "SBPA-204-X",
         "sitetype": "DNR Biology",
         "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
-      "title": "SBPA-204-X"
-        
+        "title": "SBPA-204-X"
       }
     },
     {
@@ -1675,8 +1694,7 @@ var geojson = [
         "name": "SBPA-205-X",
         "sitetype": "DNR Biology",
         "description": "MBSS Biological Site.  Samples of benthic macroinvertebrates and fishes are taken to assess biotic integrity",
-      "title": "SBPA-205-X"
-        
+        "title": "SBPA-205-X"
       }
     },
     {
@@ -3883,7 +3901,8 @@ var geojson = [
       }
     }
   ]
-};
+}
+];
 
 L.mapbox.map('map', 'mapbox.outdoors')
   .setView([37.8, -96], 4)
