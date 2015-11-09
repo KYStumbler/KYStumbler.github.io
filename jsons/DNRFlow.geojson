@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DNR Flow Data",
+        "description": "Stream Discharge at Storm and Baseflow",
+        "title": "DNR Flow Data",
+        "marker-color": "#a3e46b",
+        "marker-size": "",
+        "marker-symbol": "",
+        "sitetype": "DNR Flow",
+        "WATERSHED": "",
+        "Lat": "",
+        "Long": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.81259,
+          39.234793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DNR Flow Station",
+        "description": "Stream Discharge at Storm and Baseflow",
+        "title": "DNR Flow Station",
+        "marker-color": "#a3e46b",
+        "marker-size": "",
+        "marker-symbol": "",
+        "sitetype": "DNR Flow",
+        "WATERSHED": "",
+        "Lat": "",
+        "Long": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.327655,
+          39.492174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DNR Flow Station",
+        "description": "Stream Discharge at Storm and Baseflow",
+        "title": "DNR Flow Station",
+        "marker-color": "#a3e46b",
+        "marker-size": "",
+        "marker-symbol": "",
+        "sitetype": "DNR Flow",
+        "WATERSHED": "",
+        "Lat": "",
+        "Long": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.333066,
+          39.488608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "USGS Gaging Station",
+        "description": "Continuous flow data",
+        "title": "USGS Gaging Station",
+        "marker-color": "#a3e46b",
+        "marker-size": "",
+        "marker-symbol": "star",
+        "sitetype": "USGS Gage",
+        "WATERSHED": "",
+        "Lat": "",
+        "Long": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.340366,
+          39.4817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DNR Flow Data",
+        "description": "Stream Discharge at Storm and Baseflow",
+        "title": "DNR Flow Data",
+        "marker-color": "#a3e46b",
+        "marker-size": "",
+        "marker-symbol": "",
+        "sitetype": "DNR Flow",
+        "WATERSHED": "",
+        "Lat": "",
+        "Long": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.813421,
+          39.2371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#96e46b",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "DNR Flow Station",
+        "description": "Stream Discharge at Storm and Baseflow",
+        "title": "DNR Flow Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.33526086807251,
+          39.48559453480446
+        ]
+      }
+    }
+  ]
+}
